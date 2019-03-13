@@ -355,6 +355,12 @@ footer a:active {
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		grid-template-areas: "icon1 icon2" "icon3 icon4" "icon5 icon6" "icon7 icon8";
 	}
+
+	#o-mnie {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "left" "right";
+	}
 }
 
 @media screen and (max-width: 690px) {
@@ -363,6 +369,14 @@ footer a:active {
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas: "lewy" "prawy";
 		justify-items: stretch;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#contact > div {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "mapa" "formularz";
 	}
 }
 
